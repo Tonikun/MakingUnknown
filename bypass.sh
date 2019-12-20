@@ -1,0 +1,22 @@
+cp /data/data/com.tencent.ig/lib/* /sdcard/Android/data/com.tonikun/Global
+cp /sdcard/Android/data/com.tonikun/Global/* /data/data/com.tencent.ig/lib
+chmod 660 /data/data/com.tencent.ig/databases/__hs__db_issues
+chmod 660 /data/data/com.tencent.ig/databases/__hs__db_key_values
+chmod 660 /data/data/com.tencent.ig/databases/__hs__db_properties
+chmod 660 /data/data/com.tencent.ig/databases/__hs__db_support_key_values
+chmod 660 /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
+chmod 660 /data/data/com.tencent.ig/databases/__hs__db_sessions
+chmod 660 /data/data/com.tencent.ig/databases/__hs_log_store
+chmod 660 /data/data/com.tencent.ig/databases/bugly_db_
+chmod 660 /data/data/com.tencent.ig/databases/config.db
+chmod 660 /data/data/com.tencent.ig/databases/iMSDK.db
+chmod 660 /data/data/com.tencent.ig/databases/tdm.db
+chmod 755 /data/data/com.tencent.ig/lib/*
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.15.5.11291_20191113215720_603154577_cures.ifs.res
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.15.5.11290_20191107151439_1430778389_cures.ifs.res
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.15.0.11272_20191012040942_1692028119_cures.ifs.res
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.15.5.11290.pak
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.15.0.11272.pak
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.15.0.11275.pak
+chmod 000 /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.15.5.11291.pak
+sleep 10
